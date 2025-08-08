@@ -1,0 +1,72 @@
+#containerRequest .group {
+  background: linear-gradient(to right,#003641,#00AE9D);
+  padding: 5px !important;
+  width: 150%;
+  height: 70%;
+  color: #FFF;
+  text-align: center;
+}
+
+#containerRequest body {
+  color: #003641;
+}
+
+#containerRequest caption {
+  background: linear-gradient(to right,#003641,#00AE9D);
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0px !important;
+}
+
+#containerRequest table {
+  width: 100% !important;
+}
+
+#containerRequest table.form tr td.group {
+  padding-left: 0% !important;
+}
+
+#containerRequest .page-title {
+  background: linear-gradient(to right,#003641,#00AE9D);
+  color: #fff;
+  padding: 20px;
+}
+
+#containerRequest .page-title h1,
+#containerRequest .page-title h5,
+#containerRequest .page-title a {
+  color: #fff !important;
+}
+
+#containerRequest .page-title .badge {
+  background-color: rgba(255,255,255,.2);
+  border: 1px solid #fff;
+  color: #fff !important;
+}
+
+#containerRequest input:hover,
+#containerRequest input:focus,
+#containerRequest input:active {
+  box-shadow: 0 0 1rem rgba(0,174,157,.3) !important;
+  border: 1px solid #00AE9D !important;
+  outline: 0 !important;
+  transform: none !important;
+}
+
+#containerRequest .user-photo {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #00AE9D;
+}
+
+#containerRequest tr {
+  color: #003641;
+}
+
+@media {
+  #containerRequest b {
+    color: #fff;
+  }
+}
